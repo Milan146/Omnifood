@@ -4,7 +4,10 @@
 -Tints: #fae5d3
 -Shades:
 -Accesnts:
--Greys: #555
+-Greys: #555 #333
+-Border Radious: 9px
+- Fonts Weight:- Default:400 Medium:500 Bold:700 Semi-bold:600
+- Line Heights: Default:1 1.05 1.6
  */
 
 /* -----------Styling Starts ------------*/
@@ -61,7 +64,7 @@ body {
 }
 .section-hero {
   background-color: #fae5d3;
-  padding: 9.6rem;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .btn:link,
@@ -144,7 +147,73 @@ body {
   align-items: center;
   background-color: #fae5d3;
   height: 9.6rem;
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 0 4.8rem;
 }
 
 /* ------------------------------ Header Section Ends ---------------------*/
+
+/*-------------------- Navigation Section Starts---------------------------- */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  font-size: 1.8rem;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  color: white;
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+  border-radius: 9px;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* ----------------- Section How Starts */
+.section-how {
+  background-color: #cf711f;
+  padding: 9.6rem 0;
+}
+
+.section-how div {
+  padding: 100px;
+  font-size: 50px;
+}
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-how div:nth-child(1) {
+  background-color: aqua;
+}
+.section-how div:nth-child(2) {
+  background-color: rgb(98, 20, 63);
+}
+.section-how div:nth-child(3) {
+  background-color: rgb(98, 199, 26);
+}
+.section-how div:nth-child(4) {
+  background-color: rgb(220, 77, 16);
+}
+
+/* ----------------- Section How Ends */
