@@ -297,3 +297,12 @@
   align-items: center;
   gap: 1.6rem;
 }
+.all-recipies {
+  margin-top: 4rem !important;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.meal:hover {
+  transform: translateY(-1.5rem);
+  transition: all 0.4s;
+}
