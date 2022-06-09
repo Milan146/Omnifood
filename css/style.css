@@ -305,4 +305,31 @@
 .meal:hover {
   transform: translateY(-1.5rem);
   transition: all 0.4s;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+/* Meals section ended */
+
+/* Testimonials section started  */
+
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+.testimonial-img {
+  width: 64px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text {
+  line-height: 1.8;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
 }
