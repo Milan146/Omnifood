@@ -382,5 +382,36 @@
   text-align: center;
   margin-top: 4.8rem;
 }
+.pricing-plan {
+  border-radius: 11px;
+
+  width: 75%;
+}
+.pricing-plan--starter {
+  justify-self: end;
+  border: 5px solid #fdf2e9;
+  padding: 4.3rem;
+}
+
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  color: #333;
+  transform: rotate(45deg);
+}
 
 /* Pricing section ends here */ ;
